@@ -9,7 +9,7 @@ This is a premium, feature-rich eBook platform that includes fully functional AI
 
 ---
 
-## 🚀 How to Run Locally
+##  How to Run Locally
 
 ### 1. Backend Setup
 1. Open a terminal and navigate to the `backend` folder:
@@ -25,7 +25,7 @@ This is a premium, feature-rich eBook platform that includes fully functional AI
    ```bash
    npm run dev
    ```
-   *The server will start on http://localhost:5000*
+   The server will start on http://localhost:5000
 
 ### 2. Frontend Setup
 1. Open a new terminal and navigate to the `frontend` folder:
@@ -44,7 +44,7 @@ This is a premium, feature-rich eBook platform that includes fully functional AI
 
 ---
 
-## 🌍 How to Deploy
+##  How to Deploy
 
 ### Deploying the Backend (Render)
 1. Push your code to a GitHub repository.
@@ -65,7 +65,7 @@ This is a premium, feature-rich eBook platform that includes fully functional AI
 
 ---
 
-## 🧠 AI Recommendation Engine Logic
+##  AI Recommendation Engine Logic
 The AI recommendation engine resides in `backend/controllers/recommendationController.js`. It uses a combination of techniques:
 1. **Content-Based Filtering**: Matches books by comparing a user's stored preferences (genres, favorite authors) with the book's metadata. 
 2. **Collaborative Filtering**: Determines "Users like you also read" by finding overlapping reading histories in the MongoDB database, then suggesting the non-overlapping books to the current user.
