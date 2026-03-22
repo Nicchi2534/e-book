@@ -40,7 +40,7 @@ This is a premium, feature-rich eBook platform that includes fully functional AI
    ```bash
    npm run dev
    ```
-   The UI will usually start on 'http://localhost:5173'
+   The UI will usually start on http://localhost:5173
 
 ---
 
