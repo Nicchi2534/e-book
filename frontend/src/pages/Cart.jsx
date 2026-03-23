@@ -80,7 +80,7 @@ const Cart = () => {
                          <h3 className="text-xl font-bold text-white mb-1 line-clamp-1">{item.title}</h3>
                          <p className="text-slate-400">{item.author}</p>
                        </div>
-                       <p className="text-xl font-bold text-white">${item.price}</p>
+                       <p className="text-xl font-bold text-white">₹{item.price}</p>
                     </div>
                     
                     <button 
@@ -103,18 +103,18 @@ const Cart = () => {
               <div className="space-y-4 mb-6">
                 <div className="flex justify-between text-slate-300">
                   <span>Subtotal ({cartItems.length} items)</span>
-                  <span>${getCartTotal()}</span>
+                  <span>₹{getCartTotal()}</span>
                 </div>
                 <div className="flex justify-between text-slate-300">
                   <span>Tax</span>
-                  <span>$0.00</span>
+                  <span>₹0</span>
                 </div>
               </div>
               
               <div className="border-t border-slate-700 pt-4 mb-8">
                 <div className="flex justify-between text-xl font-bold text-white">
                   <span>Total</span>
-                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">${getCartTotal()}</span>
+                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">₹{getCartTotal()}</span>
                 </div>
               </div>
 

@@ -48,7 +48,7 @@ const BookDetails = () => {
                    <BookOpen className="w-5 h-5" /> Read Now
                  </Link>
                  <button onClick={handleBuyNow} className="w-full bg-secondary hover:bg-pink-600 text-white py-3 rounded-xl font-bold flex justify-center items-center gap-2 transition-all shadow-[0_0_15px_rgba(236,72,153,0.4)]">
-                   <CreditCard className="w-5 h-5" /> Buy Now - ${book.price}
+                   <CreditCard className="w-5 h-5" /> Buy Now - ₹{book.price}
                  </button>
                  <button 
                    onClick={() => addToCart(book)}
@@ -103,7 +103,7 @@ const BookDetails = () => {
                <div className="grid grid-cols-2 md:grid-cols-4 gap-4 divide-x divide-slate-700">
                   <div className="text-center px-4">
                      <p className="text-slate-500 text-sm mb-1">Price</p>
-                     <p className="text-white font-bold">{book.price === 0 ? 'Free' : `$${book.price}`}</p>
+                     <p className="text-white font-bold">{book.price === 0 ? 'Free' : `₹${book.price}`}</p>
                   </div>
                   <div className="text-center px-4">
                      <p className="text-slate-500 text-sm mb-1">Pages</p>

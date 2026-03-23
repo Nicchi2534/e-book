@@ -31,7 +31,7 @@ export const CartProvider = ({ children }) => {
   };
 
   const getCartTotal = () => {
-    return cartItems.reduce((total, item) => total + (item.price || 0), 0).toFixed(2);
+    return cartItems.reduce((total, item) => total + (item.price || 0), 0);
   };
 
   return (

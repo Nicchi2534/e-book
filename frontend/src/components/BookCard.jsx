@@ -61,7 +61,7 @@ const BookCard = ({ book, index = 0 }) => {
                 <span className="text-xs">{(book?.views || 1234).toLocaleString()} reads</span>
              </div>
              <span className="text-sm font-semibold text-white">
-                {book?.price === 0 ? 'Free' : `$${book?.price || '12.99'}`}
+                {book?.price === 0 ? 'Free' : `₹${book?.price || '999'}`}
              </span>
           </div>
         </div>
