@@ -6,7 +6,9 @@
 
 @layer base {
   body {
-    @apply bg-dark text-slate-200 font-sans antialiased overflow-x-hidden;
+    @apply text-slate-200 font-sans antialiased overflow-x-hidden;
+    background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 50%, #0f172a 100%);
+    background-attachment: fixed;
   }
 }
 
